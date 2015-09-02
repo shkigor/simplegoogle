@@ -57,7 +57,7 @@
             </tr>
             <tr>
                 <td><label for="perPage">Кол-во результатов на странице: </label> </td>
-                <td><form:input path="resultPerPage" id="perPage" size="2"/></td>
+                <td><form:input path="resultPerPage" id="perPage" size="2" type="number" min="1" max="30" step="1"/></td>
                 <td><form:errors path="resultPerPage" cssClass="error"> Ошибка: введите число от 1 до 30 </form:errors></td>
             </tr>
             <tr>
